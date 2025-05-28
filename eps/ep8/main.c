@@ -11,5 +11,8 @@ int main(){
 
     l_concatenated = ll_concatenate(l1, l2);
     ll_print(l_concatenated);
+    ll_free(l1);
+    ll_free(l2);
+    ll_free(l_concatenated);
     return 0;
 }
