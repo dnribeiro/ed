@@ -92,7 +92,7 @@ typedef struct {
 **Estrutura**:
 ```c
 typedef struct {
-    Paciente *pacientes;  // Array de pacientes
+    Paciente *pacientes;  // Vetor de pacientes
     int total;           // Número atual de pacientes
     int capacidade;      // Capacidade máxima
 } BDPaciente;

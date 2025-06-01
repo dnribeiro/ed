@@ -10,7 +10,7 @@
  * Estrutura que representa o banco de dados de pacientes
  */
 typedef struct {
-    Paciente *pacientes;  // Array de pacientes
+    Paciente *pacientes;  // Vetor de pacientes
     int total;           // Número atual de pacientes
     int capacidade;      // Capacidade máxima
 } BDPaciente;
